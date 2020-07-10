@@ -31,22 +31,22 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Гэр бүл</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Бага нас</h3>
+                                <p>Яармагийн унаган хүүхэд</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>Найз нөхөд</p>
+                                <h3>Сургуульдаа</h3>
+                                <p>Ангийн тооны аварга</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Амраг садан</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Найз нөхөд</h3>
+                                <p>Цөөхөн хэдэн найзтай хүүхэд байлаа</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
