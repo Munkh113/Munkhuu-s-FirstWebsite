@@ -22,9 +22,6 @@ class HomeIndex extends React.Component {
                         { name: 'description', content: 'Sample' },
                         { name: 'keywords', content: 'sample, something' },
                     ]}
-                    link={[
-                        { rel: 'icon', href='../assets/images/favicon.png', type='image/png' },
-                    ]}
                 >
                 </Helmet>
 
