@@ -22,6 +22,9 @@ class HomeIndex extends React.Component {
                         { name: 'description', content: 'Sample' },
                         { name: 'keywords', content: 'sample, something' },
                     ]}
+                    link{[
+                        { rel: 'icon', href='../assets/images/favicon.png', type='image/png' },
+                    ]}
                 >
                 </Helmet>
 
@@ -31,7 +34,7 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
+                                <h3>Гэр бүл</h3>
                                 <p>Ipsum dolor sit amet</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
@@ -39,13 +42,13 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <p>Найз нөхөд</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
+                                <h3>Амраг садан</h3>
                                 <p>Lorem etiam nullam</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
