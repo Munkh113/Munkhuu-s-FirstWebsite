@@ -7,7 +7,7 @@ import pic11 from '../assets/images/pic11.jpg'
 const Generic = (props) => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
+            <title>Миний Тухай *ReMunkh</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 
@@ -15,7 +15,7 @@ const Generic = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Generic</h1>
+                        <h1>Миний Тухай</h1>
                     </header>
                     <span className="image main"><img src={pic11} alt="" /></span>
                     <p>Намайг Мөнх-Очир гэдэг</p>
